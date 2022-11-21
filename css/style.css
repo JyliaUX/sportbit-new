@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    padding: 80px 245px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    color: #000000;
+    margin-right: 180px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136.7%;
+    color: #000000;
+    margin: 30px 222px 30px 0;
+}
+
+button {
+    width: 219px;
+    height: 69px;
+    background: #FF6861;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 136.7%;
+    color: #FFFFFF;
+    border: none;
+	outline: none;
+}
