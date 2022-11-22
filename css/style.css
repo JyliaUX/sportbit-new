@@ -35,6 +35,11 @@ h2 {
     text-align: center;
 }
 
+.offer-text {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 section {
     padding-top: 120px;
 }
@@ -110,3 +115,34 @@ section {
     margin: 70px auto 0 auto;
 }
 
+.practice-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+
+.practice-block {
+    width: 475px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-text {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.ladybug {
+    margin-right: 101px;
+    margin-left: 125px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
