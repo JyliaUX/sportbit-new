@@ -2,34 +2,44 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial;
-    display: flex;
-    align-items: center;
-    padding: 80px 245px;
+    font-size: 18px;
+    background-color: #FDFCEF;
 }
 
 * {
     box-sizing: border-box;
 }
 
-h1 {
-    font-style: normal;
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 140%;
-    color: #000000;
-    margin-right: 180px;
+    line-height: 1.4em;
 }
 
 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 136.7%;
-    color: #000000;
-    margin: 30px 222px 30px 0;
+    margin: 0;
+    line-height: 1.37em;
 }
 
-button {
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.btn {
     width: 219px;
     height: 69px;
     background: #FF6861;
@@ -39,6 +49,64 @@ button {
     font-size: 18px;
     line-height: 136.7%;
     color: #FFFFFF;
+    padding: 22px 70px;
+    display: block;
     border: none;
 	outline: none;
 }
+
+.header {
+    padding-top: 60px;
+}
+
+.introtext {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+
+.digit {
+    font-size: 20px;
+    font-weight: 700;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
